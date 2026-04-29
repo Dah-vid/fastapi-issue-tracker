@@ -1,6 +1,6 @@
 import uuid # whats this
 from fastapi import APIRouter, HTTPException, status #whats this
-from app.schema import IssueCreate, IssueOut, IssueUpdate
+from app.schemas import IssueCreate, IssueOut, IssueUpdate
 from app.storage import load_data, save_data
 
 router = APIRouter(prefix="/api/v1/issues", tags= ["issues"])
@@ -29,5 +29,3 @@ def create_issue(payload: IssueCreate):
     return new_issue
 
 
-#test1
-#test 2
