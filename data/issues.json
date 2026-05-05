@@ -5,19 +5,5 @@
     "description": "This is the updated issue",
     "priority": "medium",
     "status": "open"
-  },
-  {
-    "id": "91823d06-7b8e-47ce-a03e-93e14faadabb",
-    "title": "Issue Two",
-    "description": "This is test two",
-    "priority": "medium",
-    "status": "open"
-  },
-  {
-    "id": "fee2f63f-bf83-4587-9d0a-8251a8372f68",
-    "title": "string",
-    "description": "string",
-    "priority": "medium",
-    "status": "open"
   }
 ]
