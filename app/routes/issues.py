@@ -61,7 +61,7 @@ def update_issue(issue_id: str, payload: IssueUpdate):
 @router.delete("/{issue_id}", status_code=status.HTTP_204_NO_CONTENT)
 def delete_issue(issue_id: str):
     """Delete an issue by ID."""
-    issues = load_data()
+    issues = load_data()   
     for index, issue in enumerate(issues):
         if issue["id"] == issue_id:
             issues.pop(index)
